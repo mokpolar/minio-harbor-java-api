@@ -5,31 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114abf84-1ca9-4617-9adc-d53f1c5c1bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/controller/RepositoryManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/service/RepositoryManageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/dto/HelloResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/FileUploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/HelloControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/TestMinIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/dto/HelloResponseDtoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/domain/posts/Posts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/domain/posts/PostsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/service/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/Posts/PostsApiControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/domain/posts/PostsRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sk/airuntime/modelrepository/web/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sk/airuntime/modelrepository/web/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sk/airuntime/modelrepository/web/dto/HelloResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sk/airuntime/modelrepository/web/dto/HelloResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/sk/airuntime/modelrepository/web/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/sk/airuntime/modelrepository/web/HelloControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/dto/HelloResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk/airuntime/modelrepository/web/dto/HelloResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/dto/HelloResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sk/airuntime/modelrepository/web/dto/HelloResponseDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +78,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -135,26 +131,16 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.airuntime.springboot.web" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sk.airuntime.modelrepository.web.domain.posts" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle init" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloResponseDtoTest.lombok_test">
-    <configuration name="FileUploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.airuntime.springboot.web.FileUploader" />
-      <module name="minio-harbor-java-api.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.airuntime.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PostsApiControllerTest.Posts_등록된다">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -166,75 +152,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minio-harbor-java-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="minio-harbor-java-api [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="classes" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="minio-harbor-java-api [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="init" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloResponseDtoTest.lombok_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="minio-harbor-java-api.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sk.airuntime.modelrepository.web.dto.*" />
+          <option name="PATTERN" value="com.sk.airuntime.modelrepository.web.Posts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sk.airuntime.modelrepository.web.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.sk.airuntime.modelrepository.web.dto.HelloResponseDtoTest" />
-      <option name="METHOD_NAME" value="lombok_test" />
+      <option name="PACKAGE_NAME" value="com.sk.airuntime.modelrepository.web.Posts" />
+      <option name="MAIN_CLASS_NAME" value="com.sk.airuntime.modelrepository.web.Posts.ApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_등록된다" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minio-harbor-java-api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sk.airuntime.modelrepository.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sk.airuntime.modelrepository.web" />
+      <option name="MAIN_CLASS_NAME" value="com.sk.airuntime.modelrepository.web.HelloControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minio-harbor-java-api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sk.airuntime.modelrepository.web.Posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sk.airuntime.modelrepository.web.Posts" />
+      <option name="MAIN_CLASS_NAME" value="com.sk.airuntime.modelrepository.web.Posts.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_수정된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minio-harbor-java-api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sk.airuntime.modelrepository.web.Posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sk.airuntime.modelrepository.web.Posts" />
+      <option name="MAIN_CLASS_NAME" value="com.sk.airuntime.modelrepository.web.Posts.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_등록된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minio-harbor-java-api.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sk.airuntime.modelrepository.web.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sk.airuntime.modelrepository.web.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.sk.airuntime.modelrepository.web.domain.posts.PostsRepositoryTest" />
+      <option name="METHOD_NAME" value="게시글저장_불러오기" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="minio-harbor-java-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sk.airuntime.modelrepository.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloResponseDtoTest.lombok_test" />
-        <item itemvalue="Gradle.minio-harbor-java-api [classes]" />
-        <item itemvalue="Application.FileUploader" />
-        <item itemvalue="Gradle.minio-harbor-java-api [build]" />
-        <item itemvalue="Gradle.minio-harbor-java-api [init]" />
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
+        <item itemvalue="JUnit.PostsRepositoryTest.게시글저장_불러오기" />
+        <item itemvalue="JUnit.ApiControllerTest.Posts_등록된다" />
+        <item itemvalue="JUnit.HelloControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +269,7 @@
       <workItem from="1612836521155" duration="3017000" />
       <workItem from="1612853869765" duration="4635000" />
       <workItem from="1613028969199" duration="19000" />
-      <workItem from="1613286209216" duration="2333000" />
+      <workItem from="1613286209216" duration="19540000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore add">
       <created>1612794088241</created>
@@ -298,10 +297,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="173" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1612800082520" />
-    <state x="328" y="106" key="#Project_Structure" timestamp="1612958931025">
+    <state x="328" y="106" key="#Project_Structure" timestamp="1613365338108">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1612958931025" />
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1613365338108" />
     <state x="-1573" y="192" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612854871425">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -311,10 +310,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1612799532193" />
+    <state x="519" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613365356472">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1613365356472" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1613293551192">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1613293551192" />
     <state x="421" y="129" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612798504035">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="421" y="129" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1612798504035" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613306214839">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1613306214839" />
     <state x="586" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612794876483">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -331,30 +342,34 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="670" y="429" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1612793712272" />
-    <state width="1085" height="314" key="GridCell.Tab.0.bottom" timestamp="1613287222391">
+    <state width="1077" height="314" key="GridCell.Tab.0.bottom" timestamp="1613380729831">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1279" height="376" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1612855288588" />
     <state width="1245" height="314" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.23.1680.952@-1920.0.1920.1080" timestamp="1612855344559" />
-    <state width="1085" height="314" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1613287222391" />
-    <state width="1085" height="314" key="GridCell.Tab.0.center" timestamp="1613287222390">
+    <state width="1077" height="314" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1613380729831" />
+    <state width="1078" height="314" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1613377781226" />
+    <state width="1077" height="314" key="GridCell.Tab.0.center" timestamp="1613380729830">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1279" height="376" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1612855288583" />
     <state width="1245" height="314" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.23.1680.952@-1920.0.1920.1080" timestamp="1612855344556" />
-    <state width="1085" height="314" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1613287222390" />
-    <state width="1085" height="314" key="GridCell.Tab.0.left" timestamp="1613287222390">
+    <state width="1077" height="314" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1613380729830" />
+    <state width="1078" height="314" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1613377781222" />
+    <state width="1077" height="314" key="GridCell.Tab.0.left" timestamp="1613380729829">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1279" height="376" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1612855288582" />
     <state width="1245" height="314" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.23.1680.952@-1920.0.1920.1080" timestamp="1612855344554" />
-    <state width="1085" height="314" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1613287222390" />
-    <state width="1085" height="314" key="GridCell.Tab.0.right" timestamp="1613287222391">
+    <state width="1077" height="314" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1613380729829" />
+    <state width="1078" height="314" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1613377781221" />
+    <state width="1077" height="314" key="GridCell.Tab.0.right" timestamp="1613380729831">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1279" height="376" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1612855288584" />
     <state width="1245" height="314" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.23.1680.952@-1920.0.1920.1080" timestamp="1612855344557" />
-    <state width="1085" height="314" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613287222391" />
+    <state width="1077" height="314" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613380729831" />
+    <state width="1078" height="314" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1613377781225" />
     <state width="1279" height="376" key="GridCell.Tab.1.bottom" timestamp="1613028949640">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -397,13 +412,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="248" width="670" height="675" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1612836369779" />
-    <state x="-1343" y="240" width="766" height="696" key="search.everywhere.popup" timestamp="1612855080596">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1613375033965">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="-1343" y="240" width="766" height="696" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1612855080596" />
     <state x="-1343" y="240" width="766" height="696" key="search.everywhere.popup/-1920.0.1920.1080/0.23.1680.1027@-1920.0.1920.1080" timestamp="1612855045084" />
     <state x="-1343" y="240" width="766" height="696" key="search.everywhere.popup/-1920.0.1920.1080/0.23.1680.952@-1920.0.1920.1080" timestamp="1612855066423" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1612800067153" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1613375033965" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
